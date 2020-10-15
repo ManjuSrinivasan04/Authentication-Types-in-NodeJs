@@ -1,4 +1,4 @@
-Consider the following authentication Methods:
+# Consider the following authentication Methods:
 
     # Session Based Authentication
     # Token Based Authentication
@@ -7,7 +7,7 @@ Consider the following authentication Methods:
     # Delegate to a third party service
 
 
-Our Server/Api:
+# Our Server/Api:
 
     Requirements:
          -> NodeJS have to be installed. Visit NodeJS.org to install 
@@ -16,13 +16,15 @@ Our Server/Api:
          -> A text editor - Visual Studio code
 
 
-I. Session Based Authentication
+# I. Session Based Authentication
 
     * In session based authentication, users credentials(username/email and password for example) are compared with what is stored in the database and if they match, a session is initialized for the user with the fetched id. 
     * These sessions are terminated on user logout and they are meant to expire after a configured time.
+ 
+    <img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--jzM6Wq6e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/800/0%2AP5OxJMihg0S0jyqk.png">
 
 
-II. Token-Based Authentication
+# II. Token-Based Authentication
      
     * Here comes token based authentication that means the server will response with a generated token on user login which will save in client instead of storing in the server to use for the further request.
     * On each client request the token need to pass with the header which will verify in the server to serve data. 
@@ -50,6 +52,7 @@ II. Token-Based Authentication
             => There are tons of open source providers you can use with Passport to help authenticate users in a variety of ways.
             => Passport.js exclusively handles user authentication, meaning that things like user authorization, password reset workflows, etc., all require custom development to function.
 
+         <img src = "https://www.ctl.io/developers/assets/images/blog/auth%204.png">
      
      ## Json Web Token
 
@@ -67,27 +70,36 @@ II. Token-Based Authentication
                   6> From next time, the client for making any request supplies the JWT token in request headers like this. Authorization: Bearer <jwt_token>
                   7> Server upon receiving the JWT validates it and sends the successful response else error.
 
+        <img src = "https://www.positronx.io/wp-content/uploads/2019/10/jwt-flow-6896-01.png">
+
       
      ## Bcrypt 
          
           => The bcrypt library on NPM makes it really easy to hash and compare passwords in Node. 
 
+          <img src = "https://1.bp.blogspot.com/-0nvN58ARlyk/XstNG8plL0I/AAAAAAAAcHw/weyT50uR70wTV7i8jmllw6pzUA0g27XlQCK4BGAsYHg/w640-h390/ivb-bcrypt.png">
 
-III. Passwordless
+
+# III. Passwordless
 
     * Passwordless as a build in authentication method using the common authentication library Passport.
     * By plugging into Passport, Passwordless can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express.
 
+           
+           <img src = "https://www.marshall.edu/it/files/BulkSMS-infographic-04-v3.png">
 
-IV. Rolling your own authentication
+# IV. Rolling your own authentication
 
     * Rolling your own authentication seems to be the most popular choice for Node.js developers today.
     * It’s also the most dangerous choice you have as a developer.
     * To successfully build user authentication into your application, you need to build your own user database, handle sessions, user permissions (authorization), sensitive credentials, and sensitive data storage.
+  
+     <img src = "https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/39387/0821-RoleBasedAuthFirebase-Luke_Newsletter-c28a3f61bde83190bc7e6971ed9c8055.png">
 
-
-V. Delegating user authentication
+# V. Delegating user authentication
 
     * Unlike rolling your own authentication or using Passport.js, delegating user authentication to a third party service requires far less custom development and almost always reduces risk and complexity.
     * By outsourcing user authentication to a provider, you’re essentially shifting the risk of handling authentication yourself to a third party while gaining simplicity, robustness, and time savings. 
     * In exchange, however, you’ll typically incur some cost. Third party services can be very affordable but aren’t free.
+
+     <img src = "https://loopback.io/images/9830523.png">
