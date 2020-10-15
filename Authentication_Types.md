@@ -21,7 +21,7 @@
     * In session based authentication, users credentials(username/email and password for example) are compared with what is stored in the database and if they match, a session is initialized for the user with the fetched id. 
     * These sessions are terminated on user logout and they are meant to expire after a configured time.
  
-    <img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--jzM6Wq6e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/800/0%2AP5OxJMihg0S0jyqk.png">
+<img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--jzM6Wq6e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/800/0%2AP5OxJMihg0S0jyqk.png">
 
 
 # II. Token-Based Authentication
@@ -52,7 +52,7 @@
             => There are tons of open source providers you can use with Passport to help authenticate users in a variety of ways.
             => Passport.js exclusively handles user authentication, meaning that things like user authorization, password reset workflows, etc., all require custom development to function.
 
-         <img src = "https://www.ctl.io/developers/assets/images/blog/auth%204.png">
+<img src = "https://www.ctl.io/developers/assets/images/blog/auth%204.png">
      
      ## Json Web Token
 
@@ -70,14 +70,14 @@
                   6> From next time, the client for making any request supplies the JWT token in request headers like this. Authorization: Bearer <jwt_token>
                   7> Server upon receiving the JWT validates it and sends the successful response else error.
 
-        <img src = "https://www.positronx.io/wp-content/uploads/2019/10/jwt-flow-6896-01.png">
+<img src = "https://www.positronx.io/wp-content/uploads/2019/10/jwt-flow-6896-01.png">
 
       
      ## Bcrypt 
          
           => The bcrypt library on NPM makes it really easy to hash and compare passwords in Node. 
 
-          <img src = "https://1.bp.blogspot.com/-0nvN58ARlyk/XstNG8plL0I/AAAAAAAAcHw/weyT50uR70wTV7i8jmllw6pzUA0g27XlQCK4BGAsYHg/w640-h390/ivb-bcrypt.png">
+<img src = "https://1.bp.blogspot.com/-0nvN58ARlyk/XstNG8plL0I/AAAAAAAAcHw/weyT50uR70wTV7i8jmllw6pzUA0g27XlQCK4BGAsYHg/w640-h390/ivb-bcrypt.png">
 
 
 # III. Passwordless
@@ -86,7 +86,7 @@
     * By plugging into Passport, Passwordless can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express.
 
            
-           <img src = "https://www.marshall.edu/it/files/BulkSMS-infographic-04-v3.png">
+<img src = "https://www.marshall.edu/it/files/BulkSMS-infographic-04-v3.png">
 
 # IV. Rolling your own authentication
 
@@ -94,7 +94,7 @@
     * It’s also the most dangerous choice you have as a developer.
     * To successfully build user authentication into your application, you need to build your own user database, handle sessions, user permissions (authorization), sensitive credentials, and sensitive data storage.
   
-     <img src = "https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/39387/0821-RoleBasedAuthFirebase-Luke_Newsletter-c28a3f61bde83190bc7e6971ed9c8055.png">
+<img src = "https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/39387/0821-RoleBasedAuthFirebase-Luke_Newsletter-c28a3f61bde83190bc7e6971ed9c8055.png">
 
 # V. Delegating user authentication
 
@@ -102,4 +102,4 @@
     * By outsourcing user authentication to a provider, you’re essentially shifting the risk of handling authentication yourself to a third party while gaining simplicity, robustness, and time savings. 
     * In exchange, however, you’ll typically incur some cost. Third party services can be very affordable but aren’t free.
 
-     <img src = "https://loopback.io/images/9830523.png">
+<img src = "https://loopback.io/images/9830523.png">
