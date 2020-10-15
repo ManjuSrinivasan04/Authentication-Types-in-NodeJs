@@ -1,5 +1,7 @@
 <img src = "https://miro.medium.com/max/4198/1*HC1PWdue5ZofBEwOMEsBBA.png">
 
+
+
 # Cookies Vs Local Storage
 
    * Cookies are primarily for reading server-side
@@ -16,7 +18,14 @@
         * localStorage is an implementation of the Storage Interface. 
         * It stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache / Locally Stored Data — unlike cookie expiry.
 
+
+
 <img  src = "https://ic.pics.livejournal.com/dotnetinter/32561056/128955/128955_original.png">
+
+
+
+
+
 
 # Cookies Vs Session Storage
 
@@ -26,10 +35,18 @@
        * While You can describe Session as a server-side storage of information that stores information of the user’s interaction with the website or web application. 
        * Unlike Cookies, Sessions stored on the server side.
 
+
+
 <img src = "https://anydifferencebetween.com/wp-content/uploads/2016/09/Difference-Between-Cookies-and-Sessions.jpg">
 
 
+
+
 # Cookies Vs Local Storage Vs Session Storage
+
+
+
+
 
 <img src = "https://i.stack.imgur.com/cI5kT.jpg">
 

@@ -9,11 +9,11 @@
      
 # The flow of traditional cookie-based authentication:
    
-   * User enters their login credentials.
-   * Server verifies the credentials are correct and creates a session which is then stored in a database.
-   * A cookie with the session ID is placed in the users browser.
-   * On subsequent requests, the session ID is verified against the database and if valid the request processed.
-   * Once a user logs out of the app, the session is destroyed both client-side and server-side.
+    * User enters their login credentials.
+    * Server verifies the credentials are correct and creates a session which is then stored in a database.
+    * A cookie with the session ID is placed in the users browser.
+    * On subsequent requests, the session ID is verified against the database and if valid the request processed.
+    * Once a user logs out of the app, the session is destroyed both client-side and server-side.
 
 # Token-based authentication
 
@@ -31,6 +31,7 @@
     * Subsequent requests to server include this token as additional Authorization header or through one of the other methods mentioned above.
     * The server decodes the JWT and if the token is valid processes the request.
     * Once a user logs out, the token is destroyed client-side, no interaction with the server is necessary.
+
 
 
 <img src = "https://miro.medium.com/max/1250/0*q4BbSrVFfpbiJPDQ.png">

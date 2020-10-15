@@ -17,6 +17,7 @@ Session vs Token Based Authentication
 
 <img src = "https://miro.medium.com/max/875/1*PDry-Wb8JRquwnikIbJOJQ.png">
 
+
 # Scalability
     
     * Session based authentication:

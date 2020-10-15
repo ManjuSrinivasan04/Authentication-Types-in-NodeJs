@@ -54,6 +54,7 @@
 
 <img src = "https://www.ctl.io/developers/assets/images/blog/auth%204.png">
      
+     
      ## Json Web Token
 
            => JWT is a type of token-based authentication. 
