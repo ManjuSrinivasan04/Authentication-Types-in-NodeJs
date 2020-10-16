@@ -10,6 +10,12 @@
 
 <img src="https://techaffinity.com/blog/wp-content/uploads/2015/08/soaInner1.jpg">
 
+# SOA :
+
+
 <img src="https://files.speakerdeck.com/presentations/c73247302d3b013123e50ea4b08f9aa8/slide_1.jpg">
+
+
+# Why SOA :
 
 <img src="https://files.speakerdeck.com/presentations/c73247302d3b013123e50ea4b08f9aa8/slide_2.jpg">
