@@ -24,7 +24,6 @@
 
 # The flow of token-based authentication: 
 
-
     * User enters their login credentials.
     * Server verifies the credentials are correct and returns a signed token.
     * This token is stored client-side, most commonly in local storage - but can be stored in session storage or a cookie as well.

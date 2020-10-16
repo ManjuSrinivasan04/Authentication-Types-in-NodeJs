@@ -97,6 +97,7 @@
   
 <img src = "https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/39387/0821-RoleBasedAuthFirebase-Luke_Newsletter-c28a3f61bde83190bc7e6971ed9c8055.png">
 
+
 # V. Delegating user authentication
 
     * Unlike rolling your own authentication or using Passport.js, delegating user authentication to a third party service requires far less custom development and almost always reduces risk and complexity.

@@ -39,3 +39,4 @@ Session vs Token Based Authentication
     
       -> There is no issue with cookies as the JWT is included in the request header.
        
+       

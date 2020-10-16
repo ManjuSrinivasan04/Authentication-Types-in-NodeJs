@@ -12,7 +12,7 @@
 
    => To use cookies with Express, we need the cookie-parser middleware. To install it, use the following code −
 
-                ## npm install --save cookie-parser
+               ## npm install --save cookie-parser
 
 # With the help of cookies –
 
